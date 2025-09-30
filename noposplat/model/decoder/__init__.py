@@ -1,0 +1,12 @@
+from noposplat.model.decoder.decoder import Decoder
+from noposplat.model.decoder.decoder_splatting_cuda import DecoderSplattingCUDA, DecoderSplattingCUDACfg
+
+DECODERS = {
+    "splatting_cuda": DecoderSplattingCUDA,
+}
+
+DecoderCfg = DecoderSplattingCUDACfg
+
+
+def get_decoder(decoder_cfg: DecoderCfg) -> Decoder:
+    return DECODERS[decoder_cfg.name](decoder_cfg)

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+
+noposplat/pretrained_weights/re10k.ckpt

@@ -1,0 +1,46 @@
+# config.yaml
+pretrained_model_name_or_path: model_weight/CogVideoX-5b-I2V
+data_path: null  # Optional argument
+output_dir: "output_cogv"  # Default value
+logging_dir: "logs"
+
+# Accelerator
+mixed_precision: null  # Optional argument
+report_to: "wandb" # not use
+# gradient_accumulation_steps: 8 # how freq(num of backwards) to do optimization
+gradient_accumulation_steps: 4 # how freq(num of backwards) to do optimization
+
+revision: null
+variant: null
+gradient_checkpointing: true
+
+# optimizer
+learning_rate: 3e-5
+use_8bit_adam: true
+use_came: false
+allow_tf32: true
+# lr_scheduler
+lr_scheduler: "constant"
+lr_warmup_steps: 50
+max_train_steps: 2000 # for control lr decay
+scheduler_config_path: model_weight/CogVideoX-5b-I2V/scheduler/scheduler_config.json
+
+checkpointing_steps: 50 # save freq
+seed: 42
+num_train_epochs: 100
+# optimizer
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 1e-2
+adam_epsilon: 1e-08
+# accelerator.clip_grad_norm_
+max_grad_norm: 1.0
+
+local_rank: -1  # For distributed training
+warm_up_step: 50 # use gt replace nopo_out is input of cog
+
+resume_training: false
+
+max_to_keep: 10
+transformer_weight_path: null
+synthesize_output: false
