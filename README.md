@@ -84,4 +84,6 @@ If you find our work helpful, please consider citing:
 
 ## Acknowledgements
 
-This project is developed with several fantastic repos: [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideoX](https://github.com/zai-org/CogVideo) and [MVSplat360](https://github.com/donydchen/mvsplat360). We thank the original authors for their excellent work.
+This project is developed with several fantastic repos: [NoPoSplat](https://github.com/cvg/NoPoSplat), [CogVideoX](https://github.com/zai-org/CogVideo) and [MVSplat360](https://github.com/donydchen/mvsplat360). We thank the original authors for their excellent work. 
+
+D. Y. Chen's contributions were made while he was a PhD student at Monash University.
