@@ -49,7 +49,7 @@ Manually download pre-trained weights and place them in the following paths:
 |--------------------------|--------------------------------------|------------------------------------------|
 | NoPoSplat (RE10K)        | `noposplat/pretrained_weights/re10k.ckpt` |  [Hugging Face](https://huggingface.co/botaoye/NoPoSplat/tree/main)           |
 | CogVideoX-5b-I2V         | `model_weight/CogVideoX-5b-I2V/`     | [Hugging Face](https://huggingface.co/THUDM/CogVideoX-5b-I2V) |
-| Fine-tuned Transformer   | `model_weight/fine-tuned_tran/`      | (TBD)             |
+| Fine-tuned Transformer   | `model_weight/fine-tuned_tran/`      | [Onedrive](https://monashuni-my.sharepoint.com/:u:/g/personal/cheng_zhang_monash_edu/IQBa_W_BExVjT5sr3eH5YVCtAW6Pgl-jmSiTdyC_vlb0dMA?e=8tWko6)             |
 
 
 ## Requirement
